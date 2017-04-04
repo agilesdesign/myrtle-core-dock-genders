@@ -1,6 +1,6 @@
 {
-    "name": "agilesdesign/myrtle-genders",
-    "description": "Genders Dock for Myrtle WMS",
+    "name": "agilesdesign/myrtle-core-dock-genders",
+    "description": "Core Genders Dock for Myrtle WMS",
     "license": "MIT",
     "authors": [
         {
@@ -12,10 +12,10 @@
     "autoload": {
         "classmap": [
             "src/database",
-            "src/Myrtle/Docks/GendersDock.php"
+            "src/Myrtle/Core/Docks"
         ],
         "psr-4": {
-            "Myrtle\\Genders\\": "src/Genders"
+            "Myrtle\\Core\\Genders\\": "src/Genders"
         }
     }
 }
